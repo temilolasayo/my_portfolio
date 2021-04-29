@@ -166,38 +166,27 @@ class PortfolioApp extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Padding(
-                        padding: const EdgeInsets.only(
-                          top: 10.0,
-                        ),
+                      Expanded(
                         child: Icon(
                           Icons.horizontal_rule,
                           size: 50,
                           color: Colors.black38,
                         ),
                       ),
-
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.only(
-                            top: 10.0,
-                            left: 20.0,
-                            right: 20.0,
-                          ),
-                          child: Text(
-                            'An IT professional with over 5 years proven work experience in Web Design and Management. I am also passionate about helping businesses to solve problems.',
-                            textAlign: TextAlign.center,
-                            style: TextStyle(
-                              fontSize: 15,
-                              wordSpacing: 2.0,
-                            ),
-                          ),
+                      Text(
+                        'An IT professional with over 5 years proven work experience in Web Design and Management. I am also passionate about helping businesses to solve problems.',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 15,
+                          wordSpacing: 2.0,
                         ),
                       ),
-                      Icon(
-                        Icons.horizontal_rule,
-                        size: 50,
-                        color: Colors.black38,
+                      Expanded(
+                        child: Icon(
+                          Icons.horizontal_rule,
+                          size: 50,
+                          color: Colors.black38,
+                        ),
                       ),
                     ],
                   )),

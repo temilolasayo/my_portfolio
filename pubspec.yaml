@@ -48,7 +48,6 @@ flutter:
   assets:
     
     - assets/images/temilola.jpg
-    - assets/images/sayo.jpg
    
 
   # An image asset can refer to one or more resolution-specific "variants", see

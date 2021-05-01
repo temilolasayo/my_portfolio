@@ -11,7 +11,7 @@ class PortfolioApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.black45,
-          title: Text("@temilolasayor"),
+          title: Text("@temilolasayo"),
           centerTitle: true,
         ),
         body: SafeArea(
